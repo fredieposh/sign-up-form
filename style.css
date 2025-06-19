@@ -35,7 +35,8 @@ div.left-sidebar {
     resize: both;
     display: flex;
     flex-direction: column;
-    padding-top: 3em;
+    padding-top: 8em;
+    padding-bottom: 1em;
 }
 
 div.logo-ribbon {
@@ -43,18 +44,34 @@ div.logo-ribbon {
     height: 30%;
     background-color: rgba(3, 3, 30, 0.5);
     justify-content: center;
+    align-items: center;
     /* background-color: #3A3D30; */
 }
 
 div.logo-text {
+    width: 55%;
     color: white;
     font-family: Dash-Of-Salt;
-    font-size: 6em;
+    font-size: 10em;
+}
+
+div.logo-picture {
+    width: 45%;
+    height: 70%;
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 2rem;
+    align-items: center;
 }
 
 div.logo-ribbon img {
     display: block;
     object-fit: contain;
     height: 100%;
-    width: 100%;
+    width: auto;
+}
+
+div.photo-credit {
+    margin-top: auto;
+    text-align: center;
 }
