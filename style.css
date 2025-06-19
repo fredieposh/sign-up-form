@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Dash-Of-Salt";
+    src: 
+        url(fonts/A\ Dash\ of\ Salt.woff2) format("woff2"),
+        url(fonts/A\ Dash\ of\ Salt.woff) format("woff");
+}
+
+:root {
+    font-size: 1em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body {height:100%}
+
+body {
+    background-color: #EAEDF0;
+    font-family: "Halvetica", "Ariel", sans-serif;
+    line-height: 1.5;
+    display: flex;
+    width: 100%;
+    border: solid 1px black;
+}
+
+div.left-sidebar {
+    width: 40%;
+}
+
+div.right-sidebar {
+    width: 60%;
+}
+
+div.left-sidebar {
+    background-image: url(./amanda-chapman-0j0rOPiZuPY-unsplash.jpg);
+    /* background-size:cover; */
+    background-size: cover;
+    resize: both;
+}
