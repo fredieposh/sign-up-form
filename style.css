@@ -23,19 +23,38 @@ body {
     border: solid 1px black;
 }
 
-div.left-sidebar {
-    width: 40%;
-}
-
 div.right-sidebar {
     width: 60%;
 }
 
 div.left-sidebar {
+    width: 40%;
     background-image: url(./amanda-chapman-0j0rOPiZuPY-unsplash.jpg);
     /* background-size:cover; */
     background-size: cover;
     resize: both;
     display: flex;
     flex-direction: column;
+    padding-top: 3em;
+}
+
+div.logo-ribbon {
+    display: flex;
+    height: 30%;
+    background-color: rgba(3, 3, 30, 0.5);
+    justify-content: center;
+    /* background-color: #3A3D30; */
+}
+
+div.logo-text {
+    color: white;
+    font-family: Dash-Of-Salt;
+    font-size: 6em;
+}
+
+div.logo-ribbon img {
+    display: block;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
