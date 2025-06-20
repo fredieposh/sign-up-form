@@ -1,3 +1,4 @@
+/* General rules */
 @font-face {
     font-family: "Dash-Of-Salt";
     src: 
@@ -23,10 +24,26 @@ body {
     border: solid 1px black;
 }
 
+/* Right sidebar rules */
 div.right-sidebar {
     width: 60%;
+    display: flex;
+    flex-direction: column;
 }
 
+div.intro {
+    height: 20%;
+}
+
+div.form{
+    height: 60%;
+}
+
+div.sign-in {
+    height: 20%;
+}
+
+/* Left sidebar rules */
 div.left-sidebar {
     width: 40%;
     background-image: url(./amanda-chapman-0j0rOPiZuPY-unsplash.jpg);
