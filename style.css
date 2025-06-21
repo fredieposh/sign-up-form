@@ -1,7 +1,7 @@
 /* General rules */
 @font-face {
     font-family: "Dash-Of-Salt";
-    src: 
+    src:
         url(fonts/A\ Dash\ of\ Salt.woff2) format("woff2"),
         url(fonts/A\ Dash\ of\ Salt.woff) format("woff");
 }
@@ -13,7 +13,10 @@
     padding: 0;
 }
 
-html,body {height:100%}
+html,
+body {
+    height: 100%
+}
 
 body {
     background-color: #EAEDF0;
@@ -26,21 +29,64 @@ body {
 
 /* Right sidebar rules */
 div.right-sidebar {
+    --background: #EAEDF0;
+    --form-background: white;
     width: 60%;
     display: flex;
     flex-direction: column;
 }
 
-div.intro {
-    height: 20%;
+div.intro,
+div.form,
+div.sign-in {
+    padding-right: 0.5rem;
 }
 
-div.form{
-    height: 60%;
+div.intro {
+    padding-top: 6rem;
+    padding-left: 2rem;
+    padding-right: 6rem;
+    background-color: var(--background);
+    height: 30%;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #2a2d20;
+}
+
+div.form {
+    background-color: var(--form-background);
+    padding-left: 1.5rem;
+    box-shadow: 5px 5px 10px grey;
+    height: 40%;
 }
 
 div.sign-in {
-    height: 20%;
+    background-color: var(--background);
+    /* box-shadow:5px 20px 20px grey; */
+    padding-left: 2rem;
+    margin-top: 1rem;
+    height: 30%;
+}
+
+td,
+tr {
+    padding: 0.5rem;
+}
+
+td {
+    width: 5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+input {
+    display: block;
+    width: 60%;
+    height: 1.5rem;
+    border-radius: 5px;
 }
 
 /* Left sidebar rules */
@@ -76,7 +122,7 @@ div.logo-picture {
     width: 45%;
     height: 70%;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     padding-right: 2rem;
     align-items: center;
 }
