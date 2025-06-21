@@ -68,6 +68,16 @@ div.sign-in {
     height: 30%;
 }
 
+form {
+    padding-bottom: 1rem; 
+}
+
+h3 {
+    padding-left: 0.5rem;
+    color: #2a2d20;
+    margin-block-end: 0.5em;
+}
+
 td,
 tr {
     padding: 0.5rem;
@@ -88,6 +98,20 @@ input {
     height: 1.5rem;
     border-radius: 5px;
     border: solid 1px #E5E7EB;
+}
+
+input:focus {
+    border: solid 1px #0060F0;
+    outline: none;
+    box-shadow: 2px 3px 3px  lightgrey;
+    /* border-color: lightblue; */
+}
+
+input:user-invalid {
+    border: solid 1px #0060F0;
+    outline: none;
+    box-shadow: 2px 3px 3px  red;
+    /* border-color: lightblue; */
 }
 
 span.know {
