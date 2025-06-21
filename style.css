@@ -87,6 +87,17 @@ input {
     width: 60%;
     height: 1.5rem;
     border-radius: 5px;
+    border: solid 1px #E5E7EB;
+}
+
+span.know {
+    font-style: italic;
+}
+
+label {
+    font-size: 0.7rem;
+    font-weight: 800;
+    color:#5F5F5F;
 }
 
 /* Left sidebar rules */
